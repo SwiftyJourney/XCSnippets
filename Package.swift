@@ -21,8 +21,5 @@ let package = Package(
     .target(
       name: "XCSnippets",
       dependencies: []),
-    .testTarget(
-      name: "XCSnippetsTests",
-      dependencies: ["XCSnippets"]),
   ]
 )
