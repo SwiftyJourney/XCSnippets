@@ -10,8 +10,8 @@ let package = Package(
       targets: ["XCSnippets"]),
   ],
   dependencies: [
-    // Dependencies declare other packages that this package depends on.
-    // .package(url: /* package url */, from: "1.0.0"),
+    .package(url: "https://github.com/JohnSundell/Files.git", from: "4.0.0"),
+    .package(url: "https://github.com/JohnSundell/ShellOut.git", from: "2.0.0")
   ],
   targets: [
     .target(
