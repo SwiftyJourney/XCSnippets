@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
   name: "XCSnippets",
   products: [
-    .library(
+    .executable(
       name: "XCSnippets",
       targets: ["XCSnippets"]),
   ],
@@ -14,8 +14,8 @@ let package = Package(
     .package(url: "https://github.com/JohnSundell/ShellOut.git", from: "2.0.0")
   ],
   targets: [
-    .target(
+    .executableTarget(
       name: "XCSnippets",
-      dependencies: []),
+      dependencies: ["Files", "ShellOut"]),
   ]
 )
