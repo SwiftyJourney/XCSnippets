@@ -1,10 +1,12 @@
-# XCSnippets 𝍎
+# 𝍎 XCSnippets
 
 A collection of snippets for Xcode ready to install via SPM
 
+![demo_snippets](.screenshots/demo_snippets.png)
+
 ## Installation
 
-### Swift Package Manager
+### Swift Package Manager (Recommended)
 
 * Clone the repo
 * Move to the repo folder
@@ -32,6 +34,10 @@ rm -rf XCSnippets
 * Copy the files inside `Snippets` folder into `~/Library/Developer/Xcode/UserData/CodeSnippets`
   * If UserData and/or FontAndColorThemes don't exist, just create them.
 
+### Makefile
+
+You can download [CodeSnippets-for-Xcode](https://github.com/SwiftyJourney/CodeSnippets-for-Xcode) instead if you want to use the makefile approach
+
 ## Snippets
 
 * **File from Bundle** (*bunfile*): Get the path from a file in the bundle
@@ -43,4 +49,4 @@ rm -rf XCSnippets
 
 ## Attributions
 
-John Sundell, because thanks to his libraries and its own theme, made this great installation process easier.
+[John Sundell](https://github.com/JohnSundell), because thanks to his libraries and its own theme, made this great installation process easier.
