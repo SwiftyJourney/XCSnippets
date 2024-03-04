@@ -3,27 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pgmroot</string>
+	<string>setuprootvc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>guard let windowScene = (scene as? UIWindowScene) else { return }
-window = UIWindow(frame: windowScene.coordinateSpace.bounds)
-window?.windowScene = windowScene
-window?.rootViewController = &lt;#ViewController#&gt;
-window?.makeKeyAndVisible()</string>
+window = UIWindow(windowScene: windowScene)
+let rootViewController = &lt;#ViewController#&gt;
+window?.rootViewController = rootViewController
+window?.makeKeyAndVisible()
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>52340A95-B638-471D-B14A-4CBCAA8A988D</string>
+	<string>8C769993-F022-4387-B26B-94B37295BBCC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Create you programmatic scene from SceneDelegate</string>
+	<string>Initializes the UIWindow with a root UIViewController programmatically in the Scene Delegate, removing the need for storyboard setup.</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Programmatic Root Scene</string>
+	<string>Setup Root ViewController Programmatically</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

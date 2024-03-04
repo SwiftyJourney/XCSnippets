@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>decodepath</string>
+	<string>decodeJSONPath</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
@@ -24,9 +24,9 @@
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Decode the JSON data on a Codable model</string>
+	<string>Decodes JSON data into a model object from a specified file path.</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>JSON Decoder for Path</string>
+	<string>Decode JSON from path</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

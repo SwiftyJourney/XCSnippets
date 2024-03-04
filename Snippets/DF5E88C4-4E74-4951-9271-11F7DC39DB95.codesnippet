@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>envKeyModifier</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>struct &lt;#TypeKey#&gt;: EnvironmentKey {
+  static let defaultValue = &lt;#value#&gt;
+}
+
+extension EnvironmentValues {
+  var &lt;#property#&gt;: &lt;#Type#&gt; {
+    get { self[&lt;#Type#&gt;.self] }
+    set { self[&lt;#Type#&gt;.self] = newValue }
+  }
+}
+
+extension View {
+  func &lt;#modifier#&gt;(&lt;#parameters#&gt;) -&gt; some View {
+    environment(\.&lt;#property#&gt;, &lt;#value#&gt;)
+  }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>DF5E88C4-4E74-4951-9271-11F7DC39DB95</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Defines a custom environment key and its corresponding view modifier in SwiftUI for passing data down the view hierarchy.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Create SwiftUI Environment Key</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

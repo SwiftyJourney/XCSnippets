@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>bunfile</string>
+	<string>fetchResourcePath</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>guard let path = Bundle.main.path(forResource: "&lt;#name#&gt;", ofType: "&lt;#extension#&gt;") else {
-    // handle error when there is no file
-    return
-  }</string>
+  // handle error when there is no file
+  return
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>FAB1958D-6860-4962-A03D-5EF2C8B6CF39</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -20,9 +20,9 @@
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Get the path from a file in the Bundle</string>
+	<string>Retrieves the file path for a resource from the main bundle</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>File from Bundle</string>
+	<string>Fetch Resource Path</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

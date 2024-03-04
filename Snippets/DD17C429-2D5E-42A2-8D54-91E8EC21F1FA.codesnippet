@@ -3,37 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>environment</string>
+	<string>swiftuiviewtemplate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>struct &lt;#type#&gt; {
-}
- 
- 
-struct &lt;#key#&gt;: EnvironmentKey {
-  static let defaultValue: &lt;#type#&gt; = &lt;#value#&gt;
-}
- 
-extension EnvironmentValues {
-  var &lt;#name#&gt;: &lt;#type#&gt; {
-    get { self[&lt;#key#&gt;.self] }
-    set { self[&lt;#key#&gt;.self] = newValue  }
+	<string>struct &lt;#name#&gt;: View {
+  var body: some View {
+    &lt;#body#&gt;
   }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7E5E8798-3F6E-4979-AE01-21A8627DEF27</string>
+	<string>DD17C429-2D5E-42A2-8D54-91E8EC21F1FA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Basic implementation for a custom environment value</string>
+	<string>A template for creating a new SwiftUI view with customizable content.</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Environment Value</string>
+	<string>SwiftUI View Template</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
