@@ -40,12 +40,16 @@ You can download [CodeSnippets-for-Xcode](https://github.com/SwiftyJourney/CodeS
 
 ## Snippets
 
-* **File from Bundle** (*bunfile*): Get the path from a file in the bundle
-* **JSON Decoder for Path** (*decodepath*): Lets you decode a file from an specific path and convert it to your `Codable` model.
-* **Programmatic Root Scene** (*pgmroot*): Add this snippet to your `SceneDelegate` when you don't want to use `Storyboards`. (iOS 13+)
-* **SwiftUI view** (*view*): Creates a simple view structure, it is basically the hardcoded code that you get creating a SwiftUI view file.
-* **View modifier** (*modifier*): Creates the basic bolierplate code to create a custom view modifiers.
-* **Environment value** (*environment*): Basic implementation for a custom environment value.
+| Name                                       | Alias                  | Description                                                                                                                           |
+| ------------------------------------------ | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| Create SwiftUI Environment Key             | `envkeymodifier`       | Defines a custom environment key and its corresponding view modifier in SwiftUI for passing data down the view hierarchy.             |
+| Create SwiftUI Modifier                    | `swiftuimodifier`      | Defines a custom SwiftUI ViewModifier for reusable view modifications.                                                                |
+| Custom UIKit View Template                 | `customuiviewtemplate` | Provides a starting point for creating a custom UIView with style and layout customization.                                           |
+| Decode JSON from path                      | `decodejsonpath`       | Decodes JSON data into a model object from a specified file path.                                                                     |
+| Fetch Resource Path                        | `fetchresourcepath`    | Retrieves the file path for a resource from the main bundle.                                                                          |
+| Programmatic ViewController setup          | `programmaticvc`       | Sets up a UIViewController with a vertical UIStackView and a UILabel programmatically.                                                |
+| Setup Root ViewController programmatically | `setuprootvc`          | Initializes the UIWindow with a root UIViewController programmatically in the Scene Delegate, removing the need for storyboard setup. |
+| SwiftUI View Template                      | `swiftuiviewtemplate`  | A template for creating a new SwiftUI view with customizable content.                                                                 |
 
 ## Attributions
 

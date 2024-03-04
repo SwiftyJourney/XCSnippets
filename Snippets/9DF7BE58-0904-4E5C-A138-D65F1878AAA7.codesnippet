@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>modifier</string>
+	<string>swiftuimodifier</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>struct &lt;#name#&gt;: ViewModifier {
@@ -19,9 +19,9 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Creates a simple custom view modifier</string>
+	<string>Defines a custom SwiftUI ViewModifier for reusable view modifications.</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>View Modifier</string>
+	<string>Create SwiftUI Modifier</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
